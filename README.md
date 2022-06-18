@@ -6,6 +6,9 @@ Create a block plugin that uses APIs with PHP middleware
 
 You can direct install it's zip or use npm to build and update code
 
+* git clone in plugin folder
+* npm start
+
 ### References
 https://www.wpexplorer.com/create-block-plugin/
 
