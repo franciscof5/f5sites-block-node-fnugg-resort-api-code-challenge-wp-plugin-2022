@@ -1,4 +1,10 @@
+# Code Challenge
 
+Create a block plugin that uses APIs with PHP middleware
+
+# How to use
+
+You can direct install it's zip or use npm to build and update code
 
 ### References
 https://www.wpexplorer.com/create-block-plugin/
