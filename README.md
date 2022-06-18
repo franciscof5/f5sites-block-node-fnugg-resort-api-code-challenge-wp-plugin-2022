@@ -2,7 +2,7 @@
 
 Create a block plugin that uses APIs with PHP middleware
 
-# How to use
+## How to use
 
 You can direct install it's zip or use npm to build and update code
 
