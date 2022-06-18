@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "f5sites/f5sites-block-node-fnugg-resort-api-code-challenge-wp-plugin-2022",
+  "version": "0.1.0",
+  "title": "Fnugg Resort",
+  "category": "embed",
+  "icon": "admin-multisite",
+  "description": "Get information from our resorts",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "f5sites-block-node-fnugg-resort-api-code-challenge-wp-plugin-2022",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
