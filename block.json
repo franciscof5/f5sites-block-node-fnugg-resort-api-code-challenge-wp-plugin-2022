@@ -1,0 +1,15 @@
+{
+	"apiVersion": 2,
+	"name": "create-block/fnugg",
+	"title": "Fnugg",
+	"category": "widgets",
+	"icon": "admin-multisite",
+	"description": "Create a block plugin that uses Fnugg APIs with PHP middleware",
+	"textdomain": "fnugg",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

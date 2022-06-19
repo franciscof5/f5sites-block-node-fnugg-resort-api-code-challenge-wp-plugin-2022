@@ -1,13 +1,1 @@
-/*!****************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/editor.scss ***!
-  \****************************************************************************************************************************************************************************************************************************************/
-/**
- * The following styles get applied inside the editor only.
- *
- * Replace them with your own styles or remove the file completely.
- */
-.wp-block-f5sites-f5sites-block-node-fnugg-resort-api-code-challenge-wp-plugin-2022 {
-  border: 1px dotted #f00;
-}
-
-/*# sourceMappingURL=index.css.map*/
+.wp-block-codemascot-fnugg{background:#fffdfe;border:2px solid;border-radius:4px;font-family:Open Sans;padding:0 10px}.wp-block-codemascot-fnugg h3{margin:0!important;padding:0 0 3px}.wp-block-codemascot-fnugg p.rich-text{background:#e8e8e8;border:1px solid;border-radius:3px;margin:5px 0;padding:5px 10px}.wp-block-codemascot-fnugg small{margin:0;padding:0 0 3px}

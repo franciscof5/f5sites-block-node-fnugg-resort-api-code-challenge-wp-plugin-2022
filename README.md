@@ -39,4 +39,4 @@ https://developer.wordpress.org/block-editor/how-to-guides/block-tutorial/creati
 
 https://developer.wordpress.org/block-editor/reference-guides/packages/packages-create-block/
 
-https://github.com/codemascot/fnugg#System-Architecture-and-Solution-Design
+https://github.com/f5sites/fnugg#System-Architecture-and-Solution-Design
