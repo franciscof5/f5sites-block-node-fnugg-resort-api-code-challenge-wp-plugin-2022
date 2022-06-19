@@ -11,7 +11,7 @@ import { __ } from '@wordpress/i18n';
  *
  * @see https://developer.wordpress.org/block-editor/packages/packages-block-editor/#useBlockProps
  */
-import { useBlockProps } from '@wordpress/block-editor';
+import { RichText, useBlockProps } from '@wordpress/block-editor';
 
 /**
  * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
@@ -29,13 +29,18 @@ import './editor.scss';
  *
  * @return {WPElement} Element to render.
  */
-export default function Edit() {
+export default function Edit( { attributes, setAttributes }) {
+    const { blockText } = attributes;
 	return (
 		<p { ...useBlockProps() }>
-			{ __(
-				'Start typing to search for resorts!',
-				'f5sites-block-node-fnugg-resort-api-code-challenge-wp-plugin-2022'
-			) }
+            <RichText
+                className="block__text"
+                keepPlaceholderOnFocus
+                onChange={ ( blockText ) => setAttributes( { blockText } ) }
+                placeholder={ __( 'Start typing to search for resorts (fnugg.no)...', 'f5sites-block-node-fnugg-resort-api-code-challenge-wp-plugin-2022' ) }
+                tagName="span"
+                value={ blockText }
+            />
 		</p>
 	);
 }
