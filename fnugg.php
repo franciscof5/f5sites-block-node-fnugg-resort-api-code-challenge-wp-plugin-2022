@@ -92,10 +92,10 @@ add_action('fnugg_frontend_render_html', function($resp, $atts) {
                 <h3 class="card-title">
                     <?php echo $resp['hits']['hits'][0]['_source']['name']; ?>
                 </h3>
-                <p><?php $resp['hits']['hits'][0]['_source']['description']; ?></p>
-                <p><img src="<?php $resp['hits']['hits'][0]['_source']['images']['image_full']; ?>"></p>
-                <p>Contact: <?php $resp['hits']['hits'][0]['_source']['description']; ?></p>
-                <p>Address <?php $resp['hits']['hits'][0]['_source']['contact']['address']; ?></p>
+                <p><?php echo $resp['hits']['hits'][0]['_source']['description']; ?></p>
+                <p><img src="<?php echo $resp['hits']['hits'][0]['_source']['images']['image_full']; ?>"></p>
+                <p><strong>Contact:</strong> <?php echo $resp['hits']['hits'][0]['_source']['description']; ?></p>
+                <p><strong>Address:</strong> <?php echo $resp['hits']['hits'][0]['_source']['contact']['address']; ?></p>
             </div>
         </div>
     </div>
